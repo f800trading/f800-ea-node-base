@@ -1,6 +1,6 @@
 {
-  "name": "node-base",
-  "version": "1.1.0",
+  "name": "f800-ea-node-base",
+  "version": "1.0.0",
   "description": "Node base image",
   "license": "MIT",
   "keywords": [],
@@ -8,11 +8,7 @@
   "scripts": {
 
   },
-  "dependencies": {
-
-    "winston": "^3.2.1",
-    "ws": "^7.2.3"
-  },
+  "dependencies": {},
   "devDependencies": {
 
   },

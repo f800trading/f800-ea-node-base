@@ -22,7 +22,7 @@ on:
 
 env:
   # TODO: Change variable to your image's name.
-  IMAGE_NAME: node-base
+  IMAGE_NAME: f800-ea-node-base
   #   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
