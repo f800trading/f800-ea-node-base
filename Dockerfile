@@ -1,7 +1,6 @@
 ### BASE
-# FROM node:12.20.1-alpine3.12
-# FROM mhart/alpine-node:12.22.1
-FROM node:12.22-slim as base-install-env
+# FROM node:18.16.0-alpine3.17
+FROM node:18.16.0-slim as base-install-env
 
 # Set the working directory
 WORKDIR /app
@@ -22,7 +21,6 @@ RUN set -x && \
 
 RUN set -x && \
   yarn install --loglevel=warn
-
 
 # overwrite this with 'CMD []' in a dependent Dockerfile
 CMD ["/bin/bash"]

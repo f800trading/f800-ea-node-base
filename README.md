@@ -3,12 +3,12 @@
 ## node-base
 
 ```sh
-docker build -t hungtran/node-base  -f Dockerfile-node-base .
+docker build -t f800trading/f800-ea-node-base  -f Dockerfile .
 ```
 
 ### Push image
 
 ```sh
 docker login
-dockers docker push hungtran/node-base
+dockers docker push f800trading/f800-ea-node-base
 ```
